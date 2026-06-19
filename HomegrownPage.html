@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -55,39 +54,52 @@
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
-    .project-card {
-      cursor: none;
-      position: relative;
-      overflow: hidden;
-      border-radius: 12px;
-      background: #ddd;
-      min-height: 250px;
-      aspect-ratio: 4 / 3;
-    }
+.project-card {
+  cursor: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ddd;
+}
 
-    .project-card img {
-      cursor: none;
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.project-card img {
+  cursor: none;
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-    .landscape {
-      aspect-ratio: auto;
-    }
+.pdf-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
 
-
-    .portrait {
-      aspect-ratio: 3 / 4;
-    }
-
+.pdf-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
     #contact {
       cursor: none;
@@ -129,38 +141,42 @@
   <div class="container">
 
     <section id="about">
-      <h2 class="section-title">Homegrown; Reimagining Spaces</h2>
-      <p>Santiago Bernabéu is using advanced technology to further consumerism in the entertainment industry, wasting precious resources we will need for the future.Escalating resource scarcity and the mounting challenges of climate change demand innovative approaches to sustainable agriculture. By reimagining the Santiago Bernabéu Stadium’s hypogeum, it will be repurposed as a model for sustainable agricultural solutions across multiple scales. By integrating food production with space optimization and community engagement, future food demands as well as resource conservation will be addressed.</p>
+      <h2 class="section-title">Real Roots x Homegrown</h2>
+      <p style="font-size: 1rem;">In collaberation with Nina Cohen and Isabel Sanchez.</p>
+      <p>Home Grown is a speculative redesign of the Santiago Bernabéu Stadium that reimagines its underground hypogeum as agricultural infrastructure. The project explores how spaces designed for entertainment and consumption could instead contribute to food production, resource conservation, and urban resilience in response to climate change and growing concerns around food security.</p>
+      <p><strong>Project Brief:</strong> The project began with a detailed reconstruction of the Santiago Bernabéu Stadium, requiring a deep understanding of its architecture, operations, and recent redevelopment. Through this process, we became interested in the stadium's hypogeum, a highly engineered underground system used to store and move the playing field.</p>
     </section>
 
-
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery-1">
     <div class="project-card landscape"><img src="FinalProjects/Portfolio/Homegrown2.jpg" alt="Homegrown2"></div>
-  </div>
-</section>
-
-<section id="about">
-      <p>At the home level, the hypogeum concept is adapted to enable households to cultivate essential crops like tomatoes, potatoes, peppers, and onions in energy-efficient environments. This approach enhances food accessibility and empowers families to achieve self-sufficiency through year-round production of fresh produce, tailored to individual needs and capabilities.
-</p>
-      <p>At the entertainment scale, the hypogeum transforms the Santiago Bernabéu into a destination for agritourism and environmental appreciation. Seasonal, plant-based attractions such as strawberry picking, lavender strolls, and sunflower fields create immersive and interactive agricultural experiences. By cultivating non-native species year-round, this model merges sustainability with novel, visitor-focused experiences that educate and inspire environmental stewardship.
-</p>
-      <p>On an urban scale, the hypogeum becomes a city-sized agricultural system, designed to produce staple crops like wheat and rice. By reducing dependency on long-distance food transport and imports, this model alleviates the strain on global supply chains and promotes local food security. This sustainable solution addresses metropolitan food demands while minimizing environmental impacts and maximizing land-use efficiency.
-</p>
+      </div>
     </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
-    <div class="project-card landscape"><img src="FinalProjects/Portfolio/Homegrown1.jpg" alt="Homegrown1"></div>
-  </div>
-</section>
-
-<section id="about">
-      <p>The perfect home for you and your family in the case of severe famine :)
-</p>
+    <section id="about"	
+      <br>
+      <p>Rather than using this technology solely to support entertainment, we explored how similar infrastructure could be repurposed to address future environmental challenges. With projections indicating increasing desertification across Spain and growing pressure on global food systems, the project asks how existing architecture might contribute to food production instead of consumption.</p>
+      <div class="gallery-1">
+        <div class="project-card landscape"><img src="FinalProjects/Portfolio/Homegrown1.jpg" alt="Homegrown1"></div>
+      </div>
     </section>
+
+    <section id="about">
+      <h2 class="section-title">Process</h2>
+      <p>After digitally modelling the stadium and studying its infrastructure, we developed a speculative agricultural system capable of operating at multiple scales. The proposal transforms the hypogeum into a controlled growing environment that supports year-round food production while making efficient use of limited space and resources. The system was then adapted across three scales: the home, where families could grow essential produce; the stadium, where agriculture becomes a public and educational experience; and the city, where large-scale production helps reduce dependence on imported food and vulnerable supply chains. The design combines research into climate change, urban agriculture, and resource efficiency with architectural speculation to imagine alternative futures for existing infrastructure.</p>
+      <p>Home Grown proposes a future in which architecture plays a more active role in supporting local food systems. While speculative, the project is grounded in current environmental challenges and explores how existing technologies and spaces might be repurposed to build resilience in a changing climate. More than a redesign of a stadium, the project became an exploration of how architecture can evolve alongside the needs of society, transforming spaces built for consumption into systems that actively support communities.</p>
+      <p>This project was a daunting exercise in research and architectural thinking. The key idea was understnding unintended or ignored concequences, which meant the final piece had to reflect that we understood the entire ecosystem and environment in which it would exist. While this project is highly speculative it relied on real data, floorplans and technological capabilites.</p>
+
+<div class="pdf-container">
+  <iframe
+    src="FinalProjects/Portfolio/HomeGrown.pdf"
+    title="HomeGrown full presentation">
+  </iframe>
+</div>
+      
+      <p><strong>Skills:</strong> Systems Thinking, Architectural Design, Speculative Design, Research, CAD Modeling, Visualization, Sustainable Design.</p>
+      <p><strong>Tools:</strong> Rhino, Architectural Modeling, Rendering, Research, Technical Drawing, Photoshop.</p>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -218,4 +234,5 @@
   </script>
 </body>
 </html>
+
 
