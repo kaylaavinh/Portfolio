@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -55,9 +54,24 @@
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
+      display: grid;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -80,7 +94,7 @@
     }
 
     .landscape {
-      aspect-ratio: 1/1;
+      aspect-ratio: 4 / 3;
     }
 
 
@@ -129,27 +143,39 @@
   <div class="container">
 
     <section id="about">
-      <h2 class="section-title">Kiku No Hana Lamp</h2>
-      <p>The Japanese handcrafted Kiku No Hana lamp was launched in 2016 by Time and Style.Our goal was to redesign this beautiful classic lamp. We used natural and recycled materials to embrace the idea of Japanese design aesthetic. Each piece of the structure was carefully designed so that the lamp fits together like a 3d puzzle. The paper shade uses the beautiful leaves from the fall season in Segovia. We ironed the leaf patterns in between the wax sheets and attached them between the CNC cut wooden structure. </p>
+      <h2 class="section-title">Kiku No Hana Reimagined</h2>
+      <p style="font-size: 1rem;">In collaberation with Isabel Sanchez and Olivia Zanolori.</p>
+      <p>Inspired by Midori Mitsui's Kiku No Hana lamp, this project reinterprets an iconic design using found and recycled materials. Rather than replicating the original cedar wood and washi paper construction, we explored how the lamp's form, atmosphere, and material qualities could be recreated through locally sourced materials collected in Segovia.</p>
     </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery-3">
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/KikuLamp.jpg" alt="KikuLamp"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/KikuLamp2.jpg" alt="KikuLamp2"></div>
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KikuLamp3.jpg" alt="KikuLamp3"></div>
-  </div>
-</section>
+    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KikuLamp1.jpg" alt="KikuLamp3"></div>
+      </div>
+    </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
+    <section id="about"	
+      <br>
+      <p><strong>Project Brief:</strong> The project began with a detailed study of the Kiku No Hana lamp, examining its structure, proportions, materials, and relationship to Japanese design principles. Our goal was not simply to reproduce the object, but to understand what gave the lamp its character and reinterpret those qualities through a new material palette.</p>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">Process</h2>
+      <p>After creating sketches, technical drawings, and scale prototypes, we rebuilt the lamp using Rhino and prepared the components for digital fabrication. The structure was produced using laser-cut and CNC-milled parts designed to fit together like a three-dimensional puzzle.</p>
+      <div class="gallery-3">
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/LampProcess1.jpg" alt="ParametricProcess1"></div>
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/LampProcess2.jpg" alt="ParametricProcess2"></div>
+    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KikuLamp3.jpg" alt="ParametricProcess2"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/LampProcess3.jpg" alt="ParametricProcess3"></div>
-  </div>
-</section>
+      </div>
+      <p> The final machine successfully converted PET bottles into printable filament, demonstrating a practical method for extending the life of plastic waste. While the project remained at the prototype stage, it established a proof of concept for a campus-wide circular manufacturing system where discarded bottles could be collected, processed, and reused by students for future projects.
+Beyond the technical build, the project gave me the opportunity to explore robotics, fabrication systems, and sustainable manufacturing at a scale that extended beyond my typical design work. It reinforced the idea that waste can be viewed not as an endpoint, but as the beginning of a new material lifecycle.</p>
+      
+      <p><strong>Skills:</strong> Design Analysis, Digital Fabrication, Model Making, Sustainable Design, Rapid Prototyping, Material Exploration.</p>
+      <p><strong>Tools:</strong> Rhino, Illustrator, Laser Cutter, CNC Router, Physical Prototyping.</p>
+    </section>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -207,4 +233,5 @@
   </script>
 </body>
 </html>
+
 
