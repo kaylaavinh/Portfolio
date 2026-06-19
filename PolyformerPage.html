@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -55,9 +54,24 @@
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
+      display: grid;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -80,7 +94,7 @@
     }
 
     .landscape {
-      aspect-ratio: 1/1;
+      aspect-ratio: 4 / 3;
     }
 
 
@@ -130,17 +144,36 @@
 
     <section id="about">
       <h2 class="section-title">Rebottle Initiative</h2>
-      <p>PET is easily recyclable, and we have found that we can use this specific material as a 3D printer filament, by using the Polyformer. The Polyformer is a machine that turns PET into 3D filament, beginning by cutting the bottles into a uniform-sized ribbon. That plastic ribbon then gets melted and extruded into a 1.75mm filament. The new filament gets spun around a spool so it is collected and can be used later by a 3D printer. This machine gives plastic bottles a second life, as it can be 3D printed into anything, creating a circular economy.</p>
+      <p style="font-size: 1rem;">In collaberation with Marta Artiach, Isabel Sanchez, Isabel Peña and Olivia Zanolori.</p>
+      <p>The ReBottle Initiative explores how plastic waste can be transformed into a local material resource. Developed through a sustainability grant at IE University, the project focused on collecting PET plastic bottles and converting them into 3D printing filament, creating a potential circular system where waste generated on campus could be reused for student prototyping and fabrication.</p>
     </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery-3">
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Polyformer4.jpg" alt="Polyformer4"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Polyformer.jpg" alt="Polyformer"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Polyformer3.jpg" alt="Polyformer3"></div>
-  </div>
-</section>
+      </div>
+    </section>
+
+    <section id="about"	
+      <br>
+      <p><strong>Project Brief:</strong> Plastic bottles are one of the most commonly purchased items on IE University campus, yet few are recycled into materials that directly benefit students. We wanted to explore whether this waste stream could become a valuable resource by converting discarded PET bottles into 3D printing filament.</p>
+
+    <section id="about">
+      <h2 class="section-title">Process</h2>
+      <p>The machine works by cutting PET bottles into a continuous ribbon, which is then heated, extruded, and wound onto a spool as 1.75mm filament. Over the course of the project, we assembled the machine using 3D printed components, mechanical systems, and extrusion technology, while testing different settings to produce consistent results.
+One of the biggest challenges was calibrating the extrusion process. Small changes in temperature, feed rate, and tension could significantly affect the quality and diameter of the filament, requiring extensive testing and adjustment before achieving reliable output.</p>
+      <div class="gallery-2">
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/PolyProcess.jpg" alt="KiriTable"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/PolyProcess2.jpg" alt="KiriTable3"></div>
+      </div>
+      <p> The final machine successfully converted PET bottles into printable filament, demonstrating a practical method for extending the life of plastic waste. While the project remained at the prototype stage, it established a proof of concept for a campus-wide circular manufacturing system where discarded bottles could be collected, processed, and reused by students for future projects.
+Beyond the technical build, the project gave me the opportunity to explore robotics, fabrication systems, and sustainable manufacturing at a scale that extended beyond my typical design work. It reinforced the idea that waste can be viewed not as an endpoint, but as the beginning of a new material lifecycle.</p>
+      
+      <p><strong>Skills:</strong> Circular Design, Rapid Prototyping, Mechanical Systems, Sustainable Manufacturing, Research, Assembly, Testing, Problem Solving.</p>
+      <p><strong>Tools:</strong> 3D Printing, Electronics Assembly, Digital Fabrication, Mechanical Assembly, Extrusion Technology</p>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -198,4 +231,5 @@
   </script>
 </body>
 </html>
+
 
