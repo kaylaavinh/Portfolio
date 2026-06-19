@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -49,15 +48,47 @@
       line-height: 1.7;
       font-size: 1.1rem;
     }
+    #about2 {
+      cursor: none;
+      margin-bottom: 0px;
+      line-height: 1.7;
+      font-size: 1.1rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .about2-media video {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+      margin-top: 90px;
+    }
 
     #projects {
       cursor: none;
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
+      display: grid;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
       display: grid;
       grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -80,7 +111,7 @@
     }
 
     .landscape {
-      aspect-ratio: 1/1;
+      aspect-ratio: 4 / 3;
     }
 
 
@@ -129,25 +160,54 @@
   <div class="container">
 
     <section id="about">
-      <h2 class="section-title">Stick Moulde</h2>
-      <p>Inspired by clay’s moldable and adhesive properties, as well as the variety of organic patterns inspired by nature, we were interested in designing a mould that experimented with linking diverse forms. We found that ‘stick’, meaning to adhere or connect, would be the most suitable verb to develop our mould. Our goal was to experiment with creating isolated bubbles that were carefully interconnected by sticking thirty-one cylindrical forms together in concentric circles. We then added cobalt blue glass beads that adhered to the clear glass, and dispersed throughout the flower vase when the glass was blown into the mould. (In collaboration with Isabel Peña and Olivia Zanalori)</p>
+      <h2 class="section-title">Stick</h2>
+      <p style="font-size: 1rem;">In collaberation with Isabel Peña and Olivia Zanolori.</p>
+      <p>Stick Mould explores the relationship between material experimentation and manufacturing through the design of a large-scale clay mould for glass blowing. Developed as part of a materials exploration course, the project began with an investigation into clay and its properties before evolving into a handmade mould inspired by the verb "stick." By joining together a variety of cylindrical forms, we created an organic structure that was later used to produce a blown glass vase.</p>
     </section>
 
-
-
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery-2">
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/GlassPhoto.jpg" alt="GlassPhoto"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Glassphoto2.jpg" alt="Glassphoto2"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Glassphoto3.jpg" alt="Glassphoto2"></div>
     <div class="project-card portrait"><img src="FinalProjects/Portfolio/Glassphoto1.jpg" alt="Glassphoto1"></div>
+      </div>
+    </section>
 
-  </div>
-</section>
+    <section id="about"	`
+      <br>
+      <p><strong>Project Brief:</strong>A glass blown vase that shows clear interaction with foriegn or complex materials and shapes.</p>
+      <p>Through the creation of seventy-five experimental samples, we explored how clay could be manipulated, joined, textured, and transformed. While several verbs produced interesting results, "stick" emerged as the most compelling. Unlike many materials, clay is inherently designed to adhere to itself using slip, making the concept both physically and conceptually tied to the material.</p>
+      <p><strong>Redefined Brief:</strong>how can the act of 'sticking' create an aggragated shape formed from repetition that still allows for a consistently unique form to develop when used as glass blowing mould.</p>
+      <p>The challenge was designing a form that could be translated from clay into glass while maintaining the qualities of connection, growth, and adhesion that emerged during our material exploration.</p>
+      <div class="gallery-1">
+        <div class="project-card landscape"><img src="FinalProjects/Portfolio/StickBlueprint.jpg" alt="KiriTable"></div>
+      </div>
+    </section>
 
+    <section id="about2">
+      <div class="about-text">
+      <h2 class="section-title">Process</h2>
+      <p>The project began with extensive hands-on experimentation, producing seventyfive clay samples that explored different verbs and manipulations. These tests provided a deeper understanding of clay's behaviour, revealing both its flexibility and its limitations. While clay could be continuously reworked and recycled throughout the process, achieving consistency across larger structures, especially in a set time frame, proved far more difficult than expected.</p>
+      <p> Constructing the mould required carefully rolling, cutting, and assembling dozens of clay cylinders while maintaining a consistent wall thickness and height. Because of its scale, drying became one of the project's greatest challenges. The mould was large enough that allowing it to dry evenly before firing was extremely difficult, creating a significant risk of cracking or even exploding in the kiln. To manage this uncertainty, we produced two versions: one kiln-fired and one air-dried.</p>
+      <p> One of the most unexpected moments occurred during the glass blowing process. As molten glass was blown into the air-dried mould, the heat effectively fired portions of the clay upon contact. Anticipating the thermal expansion and stress this would create, we reinforced the mould with chicken wire to prevent it from separating during the process.</p>
+     <p> Working between clay and glass required an understanding of how materials behave under different conditions, how negative space becomes positive form, and how unpredictability can become an asset rather than a flaw. Most importantly, it demonstrated how material exploration can lead to unexpected outcomes when allowed to drive the design process.</p>
+        <p>The Pilar Lamp is an adaptive reuse project created from a cabinet belonging to Sergio's mother, Pilar. Following her passing, the cabinet became one of many objects that needed to be removed from her apartment. Too large to be moved intact, the piece had to be cut in half. Rather than allowing it to be discarded, we transformed it into a directional lamp that preserves both the material and memory of the original piece.</p>
+      </div>
+      
+      <div class="about2-media">
+        <video autoplay muted loop playsinline controls>
+          <source src="FinalProjects/Portfolio/STICK_Video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
 
-
+    <section id="about">
+      <p><strong>Skills:</strong> Material Research, Ceramic Fabrication, Glass Forming, Manufacturing Processes, Prototyping, Technical Documentation, Form Development, Negative Space Design, Collaborative Making.</p>
+      <p><strong>Tools:</strong> Clay Modelling, Glass Blowing, Illustrator, Technical Drawing, Physical Prototyping, Kiln Firing, Mold Making.</p>
+    </section>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -205,4 +265,5 @@
   </script>
 </body>
 </html>
+
 
