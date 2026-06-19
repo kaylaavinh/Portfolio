@@ -11,7 +11,8 @@
       margin: 0;
       font-family: Gill Sans, sans-serif;
       background-color: #f6f2eb;
-      line-height: .7;
+      line-height: 1.7;
+      font-size: 1.1rem;
       color: #111;
     }
 
@@ -61,12 +62,29 @@
 
     #projects {
       cursor: none;
-      margin-bottom: 80px;
+      margin-bottom: 0px;
+      line-height: 1.7;
+      font-size: 1.1rem;
     }
 
-    .gallery {
+    .gallery-1{
+      display: grid;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -144,7 +162,8 @@
     <section id="about">
       <div class="about-text">
         <h2 class="section-title">Pilar Lamp</h2>
-        <p>Sergio was tasked with clearing out his mothers apartment after her passing. A difficult task without the pressure of grief. This project was an attempt to bring new life to one of Pilar's (Sergio's mother) favorite pieces. The cabinet was too large to remove and had to be cut in half. instead of letting the piece be thrown away, we deconstructed and reimagined the piece into a directional lamp. (In collaboration with Sofia Diaz, Isabel Sanchez, and Alice Van-Rost)</p>
+        <p style="font-size: 1rem;">In collaberation with Sofia Diaz, Isabel Sanchez, and Alice Van-Roste.</p>
+        <p>The Pilar Lamp is an adaptive reuse project created from a cabinet belonging to Sergio's mother, Pilar. Following her passing, the cabinet became one of many objects that needed to be removed from her apartment. Too large to be moved intact, the piece had to be cut in half. Rather than allowing it to be discarded, we transformed it into a directional lamp that preserves both the material and memory of the original piece.</p>
       </div>
 
       <div class="about-media">
@@ -157,14 +176,25 @@
 
     <section id="Projects">
       <h2 class="section-title"></h2>
-      <div class="gallery">
+      <div class="gallery-3">
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/Pilarlamp1.jpg" alt="pilar1"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/Pilarlamp2.jpg" alt="pilar2"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/Pilarlamp3.jpg" alt="pilar3"></div>
+
+      </div>
+    </section>
+
+    <section id="Projects">
+      <h2 class="section-title">Process</h2>
+      <p>The goal was not simply to recycle the cabinet, but to create a functional object that carried traces of the original piece forward.</p>
+      <p>We designed and 3D printed all of the connection points used throughout the lamp. These custom joints allowed the structure to be assembled while creating a movable system that lets the light travel along a track and be directed where needed. To maintain a connection to the original cabinet, we studied its decorative details and translated the floral motifs into a laser-cut shade pattern. We also completed all electrical wiring and assembly, integrating the lighting system directly into the new design. </p>
+      <div class="gallery-3">
         <div class="project-card portrait"><img src="FinalProjects/Portfolio/Cabinet1.jpg" alt="Cabinet1"></div>
         <div class="project-card portrait"><img src="FinalProjects/Portfolio/Cabinet2.jpg" alt="Cabinet2"></div>
         <div class="project-card portrait"><img src="FinalProjects/Portfolio/Cabinet3.jpg" alt="Cabitnet3"></div>
-        <div class="project-card portrait"><img src="FinalProjects/Portfolio/PilarLamp1.jpg" alt="Parametric1"></div>
-        <div class="project-card portrait"><img src="FinalProjects/Portfolio/PilarLamp2.jpg" alt="Parametric2"></div>
-        <div class="project-card portrait"><img src="FinalProjects/Portfolio/PilarLamp3.jpg" alt="Parametric3"></div>
       </div>
+      <p><strong>Skills:</strong> Joinery Design, Adaptive Reuse, Product Design, Fabrication, Electronics, Problem Solving.</p>
+      <p><strong>Tools:</strong> 3D Printing, Laser Cutting, Electrical Wiring, Woodworking, Prototyping, Assembly.</p>
     </section>
 
     <footer>
