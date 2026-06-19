@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -55,9 +54,24 @@
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
+      display: grid;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
       display: grid;
       grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -130,29 +144,48 @@
 
     <section id="about">
       <h2 class="section-title"> The KIRI Table</h2>
-      <p>The KIRI Table is an innovative experimentation with recycled plastic materials. This project was part of Gravity Wave’s initiative to reinvent the life cycle of ghost fishing nets by transforming them into plastic panels. The goal was to create a desirable and engaging product that not only serves a functional purpose but also tells a compelling story. By doing so, we aim to raise awareness about plastic pollution in the oceans and its connection to the ongoing climate crisis. (In collaberation with Isabel Sanchez and Isabel Peña)</p>
+      <p style="font-size: 1rem;">In collaberation with Isabel Peña and Isabel Sanchez.</p>
+      <p>The KIRI Table explores how recycled ocean plastic can be transformed into a desirable, functional object while preserving the story of its origin. Developed as part of Gravity Wave's initiative to repurpose ghost fishing nets into plastic panels, the project combines material experimentation with principles of circular design. Created in collaboration with Isabel Sanchez and Isabel Peña, the table uses kirigami-inspired folding techniques to reintroduce a sense of movement and fluidity into an otherwise rigid material, creating a piece that reflects its connection to the ocean.</p>
     </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable.jpg" alt="KiriTable"></div>
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable4.jpg" alt="KiriTable3"></div>
-  </div>
-</section>
-
-<section id="about">
-      <p>We were inspired by the idea of taking a stiff and solid object and reincorporating the fluidity and movement from the ocean. The piece uses techniques of Kirigami, the art of cutting and folding paper, to add dimension. Using the CNC and sampling several differnt methods, we were able to create a pattern that shifts from simple to complex with just a few folds. The table uses the entirity of the board, wasting no material.
-</p>
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery-2">
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable.jpg" alt="KiriTable"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable4.jpg" alt="KiriTable3"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable3.jpg" alt="KiriTable2"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable2.jpg" alt="KiriTable1"></div>
+      </div>
     </section>
 
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable3.jpg" alt="KiriTable2"></div>
-    <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriTable2.jpg" alt="KiriTable1"></div>
-  </div>
-</section>
+    <section id="about">
+      <p><strong>Project Brief:</strong> Create value and media interest using recycled plastic panels produced from recovered ghost fishing nets. </p>
+      <p>Rather than focusing solely on creating a functional product, we became interested in understanding the material as both a physical resource and a storytelling medium. We wanted our outcome to communicate the journey of the material, from ocean waste to desirable object. Through our research and experimentation, we reframed the project around two key goals: maximizing material utilization and reintroducing a sense of movement into a rigid material.</p>
+      <p><strong>Redefined Brief:</strong> Create a desirable object that uses the entirety of the provided material and reintroducing movement inspired by the ocean to a rigid material to emphasize the history of the materials impact.</p>
+      <p>Inspired by the fluidity of the ocean, we explored how folding techniques could transform flat plastic panels into dynamic forms. We also challenged ourselves to use the material as efficiently as possible, reducing waste throughout the fabrication process. This commitment extended beyond the final table, leading us to repurpose CNC offcuts and shavings into additional experiments, including a lamp. The resulting design asks how a static sheet material can embody the movement, adaptability, and circularity of the environment from which it originated.</p>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">Process</h2>
+      <p>Our process began with understanding how the recycled plastic behaved as a material. Inspired by the fluidity of the ocean, we explored how a rigid sheet could be transformed through folding and cutting techniques derived from kirigami.</p>
+      <div class="gallery-4">
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriPaper.jpg" alt="KiriTable"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriCardboard.jpg" alt="KiriTable3"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriMDF.jpg" alt="KiriTable2"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriLockSketch.jpg" alt="KiriTable1"></div>
+      </div>
+      <p> We started by testing concepts in paper and cardboard before moving to MDF, which allowed us to more accurately simulate the behavior of the final material. It was during this stage that we encountered the project's biggest challenge: developing a kerfing pattern that would bend smoothly without snapping. Through extensive CNC testing and iteration, we refined the spacing, depth, and geometry of the cuts until we achieved a pattern that could transition from a flat surface into a complex three-dimensional form.</p>
+      <div class="gallery-4">
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriFail.jpg" alt="KiriTable"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriKerf.jpg" alt="KiriTable3"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/Kiribowl.jpg" alt="KiriTable2"></div>
+        <div class="project-card portrait"><img src="FinalProjects/Portfolio/KiriLamp.jpg" alt="KiriTable1"></div>
+      </div>
+      <p> The project was initially conceived as a chair, but prototyping revealed that the material was not suited to the structural demands of seating. Rather than forcing the concept, we adapted the design into a table, allowing us to better showcase the material's unique qualities while maintaining structural integrity. Alongside the folding system, we also developed the joinery and locking mechanisms that enable the piece to be assembled while using the entirety of the plastic panel with minimal waste.</p>
+      <p> We were committed to using as much of the material as possible. Instead of treating the CNC offcuts and shavings as waste, we experimented with transforming them into a new composite material, eventually using it to create a lamp. This process became an extension of the project's circular design philosophy, proving that even the smallest remnants could be given a second life.</p>
+      <p><strong>Skills:</strong> Circular Design, Sustainable Design, Material Research, CNC Fabrication, Kerfing, Joinery Design, Rapid Prototyping, Iterative Testing, Storytelling Through Objects, Physical Prototyping, Material Testing.</p>
+      <p><strong>Tools:</strong> Rhino, Illustrator, CNC Router, Laser Cutter.</p>
+    </section>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -210,4 +243,5 @@
   </script>
 </body>
 </html>
+
 
