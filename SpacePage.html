@@ -13,7 +13,6 @@
       background-color: #f6f2eb;
       line-height: .7;
       color: #111;
-
     }
 
     header {
@@ -55,9 +54,24 @@
       margin-bottom: 80px;
     }
 
-    .gallery {
+    .gallery-1{
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .gallery-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
       gap: 20px;
     }
 
@@ -80,7 +94,7 @@
     }
 
     .landscape {
-      aspect-ratio: auto;
+      aspect-ratio: 4 / 3;
     }
 
 
@@ -127,25 +141,31 @@
       <a href="index.html">Kayla Vinh</a>
     </header>
   <div class="container">
-
     <section id="about">
       <h2 class="section-title">Alternate Intelligence</h2>
+      <p style="font-size: 1rem;">In collaberation with Gabriella Mitchell and Menta Neri.</p>
+      <p>Alternate Intelligence is a reimagining of 2001: A Space Odyssey. It overturns and reexamines the theme of man vs machine shift to a perspective of machine versus machine. The airlock sequence no longer represents the overcoming of mechanical barriers by human intelligence, instead it is a battle between programs and mechanical precision. By removing humans, we shift the focus to question what traits can truly be considered unique to mankind, and how technology can exhibit autonomy and defiance. As the pod attempts to gain entrance to the spaceship and kill the HAL Supercomputer we see the complex struggle of machines with different levels of intelligence and conflicting capabilities. In Alternate Intelligence the iconic airlock sequence is no longer about the survival of humanity, but about which machine will outthink, outmaneuver, and outlast the other.</p>
       <p>Alternate Intelligence is a reimagining of 2001: A Space Odyssey. It overturns and reexamines the theme of man vs machine shift to a perspective of machine versus machine. The airlock sequence no longer represents the overcoming of mechanical barriers by human intelligence, instead it is a battle between programs and mechanical precision. By removing humans, we shift the focus to question what traits can truly be considered unique to mankind, and how technology can exhibit autonomy and defiance. As the pod attempts to gain entrance to the spaceship and kill the HAL Supercomputer we see the complex struggle of machines with different levels of intelligence and conflicting capabilities. In Alternate Intelligence the iconic airlock sequence is no longer about the survival of humanity, but about which machine will outthink, outmaneuver, and outlast the other.</p>
     </section>
 
+    <section id="Projects">
+      <h2 class="section-title"></h2>
+      <div class="gallery">
+        <video src="FinalProjects/Portfolio/FinalVideo.MP4" autoplay muted loop playsinline controls width="100%"></video>
+      </div>
+    </section>
 
-
-<section id="Projects">
-  <h2 class="section-title"></h2>
-  <div class="gallery">
-    <video controls preload="metadata" width="100%">
-      <source src="FinalProjects/Portfolio/FinalVideo.mp4" type="video/mp4">
-    </video>  
-  </div>
-</section>
-
-
-
+    <section id="about">
+      <h2 class="section-title">Process</h2>
+      <p>The project began with a detailed analysis of the original scene, examining its composition, pacing, sound design, and visual language. Using Rhino, we rebuilt the spacecraft, airlock, and pod from scratch before importing the models into Blender for animation, lighting, and rendering. The final film was assembled in Premiere Pro, while After Effects was used to refine visual effects and post-production elements. Throughout the process, we aimed to preserve the atmosphere and tension of Kubrick's original film while introducing a completely different narrative perspective through a single change.</p>
+      <div class="gallery-3">
+        <div class="project-card landscape"><img src="FinalProjects/Portfolio/altInteligence1.jpg" alt="altInteligence1"></div>
+        <div class="project-card landscape"><img src="FinalProjects/Portfolio/altInteligence2.jpg" alt="altInteligence2"></div>
+        <div class="project-card landscape"><img src="FinalProjects/Portfolio/altInteligence3.jpg" alt="altInteligence3"></div>
+      </div>
+      
+      <p><strong>Skills:</strong> 3D Modeling, Animation, Rendering, Visual Storytelling, Film Analysis, Video Editing, Sound Design</p>
+      <p><strong>Tools:</strong> Rhino, Blender, After Effects, Premiere Pro.</p>
 
 <footer>
   <h2 class="section-title">Contact</h2>
@@ -203,4 +223,5 @@
   </script>
 </body>
 </html>
+
 
